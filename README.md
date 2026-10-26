@@ -6,7 +6,7 @@ The solver is a Bubnov wavelet-Galerkin scheme on the periodic unit square (CDF 
 
 The goal is not speed. With the TLM surrogate turned on, every emulator step runs several tangent-linear rollouts and costs more than the solver step it replaces. What this code is for is studying the kernel: how much of it is Gaussian, how much depends on $x$, and what a network actually adds on top of a linear model.
 
-This started as my M2 internship project (LMPS / ONERA) and is research code. Things move.
+This started as my M2 internship project (LMPS / ONERA) supervised by Filippo Gatti, Eric Savin and Wilfried Genuist and is research code.
 
 ## The idea in a few lines
 
